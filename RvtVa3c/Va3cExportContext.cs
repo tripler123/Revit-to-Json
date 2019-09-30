@@ -68,8 +68,9 @@ namespace RvtVa3c
             /// </summary>
             class XyzEqualityComparer : IEqualityComparer<XYZ>
             {
+                //Distancia entre los dos puntos
                 const double _sixteenthInchInFeet
-                  = 1.0 / (16.0 * 12.0);
+                  = 1.0 / (16.0 * 12.0); //0.0052083333333333
 
                 public bool Equals(XYZ p, XYZ q)
                 {
